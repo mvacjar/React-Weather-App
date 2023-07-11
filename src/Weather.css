@@ -10,15 +10,10 @@
   text-shadow: 3px 3px 2px #ffe1d2a8;
 }
 
-.Weather ul {
+.Weather #quote-default {
   font-size: 12px;
   line-height: 0;
   color: #fe97b8d4;
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }
 
 .Weather .main-temperature img {
@@ -55,7 +50,7 @@
 
 .Weather .description-forecast {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0px auto;
   padding: 0px auto;
 }
