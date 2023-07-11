@@ -117,7 +117,7 @@ export default function Weather() {
         <div>
           <p>
             <a
-              href="https://github.com/mvacjar/React-Weather-App"
+              href="https://github.com/mvacjar/react-weather-app"
               target="_blank"
               className="link"
               id="link"
