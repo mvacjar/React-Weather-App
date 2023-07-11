@@ -28,7 +28,6 @@ export default function Weather() {
                   clasName=" side-content-center logo"
                   alt=""
                   width={100}
-                  id="world-icon"
                 />
                 Weather App
               </h1>
