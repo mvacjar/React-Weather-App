@@ -61,15 +61,9 @@ export default function Weather() {
                 <div className="city-default" id="city-default">
                   {weatherData.city}
                 </div>
-                <ul>
-                  <li className="quote-default" id="quote-default">
-                    <div>{weatherData.date}</div>
-                  </li>
-                  <br />
-                  <li className="description" id="description">
-                    <div>{weatherData.description}</div>
-                  </li>
-                </ul>
+                <div className="quote-default" id="quote-default">
+                  {weatherData.date}, {weatherData.description}
+                </div>
               </div>
             </div>
 
