@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import logo from "./images/world-icon.png";
 import "./App.css";
 import "./Weather.css";
 
@@ -21,9 +22,17 @@ export default function Weather() {
         <div className="box">
           <div className="title">
             <div>
-              <img src="./world-icon.png" alt="world-icon" />
+              <h1>
+                <img
+                  src={logo}
+                  clasName=" side-content-center logo"
+                  alt=""
+                  width={100}
+                  id="world-icon"
+                />
+                Weather App
+              </h1>
             </div>
-            <h1>Weather App</h1>
           </div>
           <div className="breaker1"></div>
           <form action="" id="search-bar">
