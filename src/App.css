@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(100deg, #fcc7fd 10%, #ffd0b6);
+  background-image: linear-gradient(100deg, #fd739fd4 10%, #ffd0b6);
   font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
@@ -33,7 +33,7 @@ h1 {
 }
 
 #bar-input::placeholder {
-  color: #fdd8c5d0;
+  color: #ffd2ba;
 }
 
 #search-button {

@@ -7,6 +7,7 @@
   font-size: 45px;
   margin: 0px 0px 2px 0px;
   color: #ffa371;
+  text-shadow: 3px 3px 2px #ffe1d2a8;
 }
 
 .Weather ul {
@@ -32,6 +33,7 @@
   font-size: 50px;
   color: #ffa371;
   font-weight: 500;
+  text-shadow: 3px 3px 2px #ffe1d2a8;
 }
 
 .Weather #main-units {
