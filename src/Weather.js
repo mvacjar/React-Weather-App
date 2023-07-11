@@ -126,7 +126,13 @@ export default function Weather() {
               Open-source code
             </a>
             <span className="name"> by Mvacjar </span>
-            <a href="/" target="_blank" className="link" id="link">
+            <a
+              href="https://main--grand-donut-c83a56.netlify.app"
+              target="_blank"
+              className="link"
+              rel="noreferrer"
+              id="link"
+            >
               hosted here
             </a>
           </p>
