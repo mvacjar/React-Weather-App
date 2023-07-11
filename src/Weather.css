@@ -54,3 +54,13 @@
   margin: 0px auto;
   padding: 0px auto;
 }
+
+.Weather .description-forecast li {
+  color: #fd739fd4;
+  font-weight: 400;
+}
+
+.Weather .description-forecast li span {
+  color: #ffa371;
+  font-weight: 300;
+}
