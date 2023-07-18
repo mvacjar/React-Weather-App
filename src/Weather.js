@@ -3,15 +3,15 @@ import axios from "axios";
 import logo from "./images/world-icon.png";
 import "./App.css";
 import "./Weather.css";
+import QuoteData from "./QuoteData";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       city: response.data.city,
-      date: "Tuesday 12:34",
+      date: new Date(response.data.dt * 1000),
       description: response.data.condition.description,
       temperature: response.data.temperature.current,
       icon: response.data.condition.icon_url,
@@ -75,7 +75,8 @@ export default function Weather(props) {
                     {weatherData.city}
                   </div>
                   <div className="quote-default" id="quote-default">
-                    {weatherData.date}, {weatherData.description}
+                    <QuoteData date={weatherData.date} />,{" "}
+                    {weatherData.description}
                   </div>
                 </div>
               </div>
