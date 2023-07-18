@@ -36,8 +36,9 @@ h1 {
 }
 
 #bar-input {
-  border-color: #fcc7fdc3;
+  border-color: #fd739fd4;
   box-shadow: 1.5px 1.5px 1.5px 1.5px #994e9a09;
+  opacity: 60%;
 }
 
 #bar-input::placeholder {
