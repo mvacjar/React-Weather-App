@@ -4,7 +4,7 @@
 
 .Weather .city-default {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 50px;
   margin: 0px 0px 2px 0px;
   color: #ffa371;
   text-shadow: 3px 3px 2px #ffe1d2a8;
@@ -20,12 +20,12 @@
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 18px;
-  height: 80px;
-  width: 80px;
+  height: 110px;
+  width: 110px;
 }
 
 .Weather #main-grades {
-  font-size: 50px;
+  font-size: 55px;
   color: #ffa371;
   font-weight: 500;
   text-shadow: 3px 3px 2px #ffe1d2a8;

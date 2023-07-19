@@ -3,7 +3,7 @@ import axios from "axios";
 import logo from "./images/world-icon.png";
 import "./App.css";
 import "./Weather.css";
-import QuoteData from "./QuoteData";
+import QuoteData from "./QuoteDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
