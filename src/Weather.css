@@ -5,15 +5,18 @@
 .Weather .city-default {
   font-weight: bold;
   font-size: 50px;
-  margin: 0px 0px 2px 0px;
   color: #ffa371;
   text-shadow: 3px 3px 2px #ffe1d2a8;
+  line-height: 1;
+  margin-top: 10px;
 }
 
 .Weather #quote-default {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 0;
   color: #fe97b8d4;
+  line-height: 2;
+  margin-left: 4px;
 }
 
 .Weather .main-temperature img {
