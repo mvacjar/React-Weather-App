@@ -87,7 +87,7 @@ export default function Weather(props) {
             </form>
 
             <div className="row" id="main-information">
-              <div className="col-6">
+              <div className="col-5">
                 <div className="information-description">
                   <div className="city-default" id="city-default">
                     {weatherData.city}
@@ -99,27 +99,30 @@ export default function Weather(props) {
                 </div>
               </div>
 
-              <div className="col-6 main-temperature">
-                <img
-                  src={weatherData.icon}
-                  alt="icon"
-                  className="float-left"
-                  id="main-icon"
-                />
-                <span className="float-left" id="main-grades">
-                  {Math.round(weatherData.temperature)}
-                </span>
-                <span id="main-units">
-                  <a href="/" className="active" id="celsius">
-                    ºC
-                  </a>
-                  <span>|</span>
-                  <a href="/" id="fahrenheit">
-                    ºF
-                  </a>
-                </span>
+              <div className="col-7 main-temperature">
+                <div className="img-grades">
+                  <img
+                    src={weatherData.icon}
+                    alt="icon"
+                    className="float-left"
+                    id="main-icon"
+                  />
+                  <span className="float-left" id="main-grades">
+                    {Math.round(weatherData.temperature)}
+                  </span>
+                  <span id="main-units">
+                    <a href="/" className="active" id="celsius">
+                      ºC
+                    </a>
+                    <span>|</span>
+                    <a href="/" id="fahrenheit">
+                      ºF
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
+
             <div className="row">
               <div className="col-12">
                 <span className="description-forecast">
@@ -131,7 +134,7 @@ export default function Weather(props) {
                   </li>
                   <li>
                     Pressure:{" "}
-                    <span id="pressure"> {weatherData.pressure}m/s</span>
+                    <span id="pressure"> {weatherData.pressure}hPa</span>
                   </li>
                 </span>
               </div>
