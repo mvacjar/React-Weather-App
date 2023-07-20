@@ -1,14 +1,14 @@
-.Weather #main-information {
-  margin: 20px 0px 20px 0px;
+.Weather .information-description {
+  margin-left: 2px;
 }
 
 .Weather .city-default {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 55px;
   color: #ffa371;
   text-shadow: 3px 3px 2px #ffe1d2a8;
   line-height: 1;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .Weather #quote-default {
@@ -17,6 +17,10 @@
   color: #fd739fd4;
   line-height: 2;
   margin-left: 4px;
+}
+
+.Weather .img-grades {
+  margin-left: 40px;
 }
 
 .Weather .main-temperature img {
@@ -68,7 +72,7 @@
   font-weight: 300;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 756px) {
   .Weather .city-default {
     font-size: 40px;
   }
