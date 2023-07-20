@@ -4,6 +4,7 @@ import logo from "./images/world-icon.png";
 import "./App.css";
 import "./Weather.css";
 import QuoteData from "./QuoteDate";
+import Conversion from "./Conversion";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -12,7 +13,7 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       city: response.data.city,
-      date: new Date(response.data.dt * 1000),
+      date: new Date(response.data.time * 1000),
       description: response.data.condition.description,
       temperature: response.data.temperature.current,
       icon: response.data.condition.icon_url,
@@ -107,18 +108,7 @@ export default function Weather(props) {
                     className="float-left"
                     id="main-icon"
                   />
-                  <span className="float-left" id="main-grades">
-                    {Math.round(weatherData.temperature)}
-                  </span>
-                  <span id="main-units">
-                    <a href="/" className="active" id="celsius">
-                      ºC
-                    </a>
-                    <span>|</span>
-                    <a href="/" id="fahrenheit">
-                      ºF
-                    </a>
-                  </span>
+                  <Conversion celsius={props.data.temperature.current} />
                 </div>
               </div>
             </div>
