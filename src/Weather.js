@@ -147,7 +147,7 @@ export default function Weather(props) {
               </a>
               <span className="name"> by Mvacjar </span>
               <a
-                href="https://main--grand-donut-c83a56.netlify.app"
+                href="https://melodic-sprite-cee6f2.netlify.app/"
                 target="_blank"
                 className="link"
                 rel="noreferrer"
