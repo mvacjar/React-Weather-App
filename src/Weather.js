@@ -108,7 +108,7 @@ export default function Weather(props) {
                     className="float-left"
                     id="main-icon"
                   />
-                  <Conversion celsius={props.data.temperature.current} />
+                  <Conversion celsius={weatherData.temperature} />
                 </div>
               </div>
             </div>

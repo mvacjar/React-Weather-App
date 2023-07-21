@@ -36,7 +36,7 @@ export default function Conversion(props) {
     return (
       <span className="Conversion">
         <span className="float-left" id="main-grades">
-          {Math.round(props.data.fahrenheit)}
+          {Math.round(fahrenheit())}
         </span>
         <span id="main-units">
           <a href="/" className="active" id="celsius" onClick={convertToC}>
