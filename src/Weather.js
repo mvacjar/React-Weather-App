@@ -59,7 +59,7 @@ export default function Weather(props) {
             <div className="breaker1"></div>
             <form onSubmit={handleSubmit} action="" id="search-bar">
               <div className="row" id="navbar">
-                <div className="col-6">
+                <div className="col-7">
                   <input
                     type="search"
                     placeholder="Type the city..."
