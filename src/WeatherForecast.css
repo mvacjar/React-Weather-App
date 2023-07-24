@@ -1,0 +1,30 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.forecast-box {
+  border: 1px solid #fd739f8b;
+  border-radius: 10px;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #994e9a09;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: relative;
+  justify-content: center;
+}
+
+.forecast-box:hover {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #994e9a09;
+  background-image: linear-gradient(100deg, #fd739fd4 0%, #ffd0b6);
+  opacity: 60%;
+}
+
+.WF-temperature {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.WF-min {
+  color: lightgray;
+}

@@ -5,6 +5,7 @@ import "./App.css";
 import "./Weather.css";
 import QuoteData from "./QuoteDate";
 import Conversion from "./Conversion";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -59,7 +60,7 @@ export default function Weather(props) {
             <div className="breaker1"></div>
             <form onSubmit={handleSubmit} action="" id="search-bar">
               <div className="row" id="navbar">
-                <div className="col-7">
+                <div className="col-6">
                   <input
                     type="search"
                     placeholder="Type the city..."
@@ -74,6 +75,14 @@ export default function Weather(props) {
                     value="Search"
                     className="form-control"
                     id="search-button"
+                  />
+                </div>
+                <div className="col-3">
+                  <input
+                    type="submit"
+                    value="Current"
+                    className="form-control"
+                    id="current-button"
                   />
                 </div>
               </div>
@@ -122,6 +131,7 @@ export default function Weather(props) {
               </div>
             </div>
             <div class="breaker2"></div>
+            <WeatherForecast />
           </div>
         </div>
 
