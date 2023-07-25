@@ -21,6 +21,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       humidity: response.data.temperature.humidity,
       pressure: response.data.temperature.pressure,
+      coordinates: response.data.coordinates,
     });
   }
 
@@ -131,7 +132,7 @@ export default function Weather(props) {
               </div>
             </div>
             <div class="breaker2"></div>
-            <WeatherForecast />
+            <WeatherForecast coordinates={weatherData.coordinates} />
           </div>
         </div>
 

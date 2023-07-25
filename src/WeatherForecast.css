@@ -20,11 +20,15 @@
   opacity: 60%;
 }
 
-.WF-temperature {
+.forecastTemp {
   display: flex;
   justify-content: space-evenly;
 }
 
-.WF-min {
+.maxTemp {
+  font-size: 15px;
+}
+
+.minTemp {
   color: lightgray;
 }
