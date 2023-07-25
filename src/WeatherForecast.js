@@ -24,30 +24,30 @@ export default function WeatherForecast(props) {
       <div className="forecast">
         <div className="row">
           {forecast.map(function (dailyForecast, index) {
-            if (index < 6) {
+            if (index < 5) {
               return (
                 <div className="col">
-                  <div>
+                  <div className="forecastBox">
                     <div className="forecastDay">
                       {" "}
                       {formatDay(forecast[index].time)}{" "}
                     </div>
                     <div className="forecastIcon"></div>
                     <img
-                      className="currentIcon"
+                      className="img-fluid max-width: 100%; rounded mx-auto d-block width"
                       alt="sunny"
                       src={forecast[index].condition.icon_url}
                       width="40"
                       height="40"
                     ></img>{" "}
-                  </div>
-                  <div className="forecastTemp">
-                    <span className="maxTemp">
-                      {Math.round(forecast[index].temperature.maximum)}°
-                    </span>
-                    <span className="minTemp">
-                      {Math.round(forecast[index].temperature.minimum)}°
-                    </span>
+                    <div className="forecastTemp">
+                      <span className="maxTemp">
+                        {Math.round(forecast[index].temperature.maximum)}°
+                      </span>
+                      <span className="minTemp">
+                        {Math.round(forecast[index].temperature.minimum)}°
+                      </span>
+                    </div>
                   </div>
                 </div>
               );
