@@ -5,22 +5,22 @@
 .forecastBox {
   border: 1px solid #fd739f8b;
   border-radius: 10px;
-  box-shadow: 1.5px 1.5px 1.5px 1.5px #994e9a09;
+  box-shadow: 2px 2px 2px 2px #994e9a09;
   margin: 0 auto;
   padding: 0 auto;
 }
 
-.forecast-box:hover {
+.forecastBox:hover {
   border: none;
   border-radius: 10px;
-  box-shadow: 1.5px 1.5px 1.5px 1.5px #994e9a09;
-  background-image: linear-gradient(100deg, #fd739fd4 0%, #ffd0b6);
-  opacity: 60%;
+  box-shadow: 2px 2px 2px 2px #994e9a09;
+  background-image: linear-gradient(100deg, #fd739f6c 0%, #ffb99369);
 }
 
 .forecastDay {
   text-align: center;
   color: #fd739fd4;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -30,14 +30,13 @@
 }
 
 .maxTemp {
-  font-size: 20px;
+  font-size: 25px;
   color: #ffa371;
   font-weight: 300;
 }
 
 .minTemp {
-  color: lightgray;
-  color: #ffb993;
+  color: #ffb993c0;
   font-weight: 200;
-  padding-top: 1px;
+  padding-top: 3px;
 }

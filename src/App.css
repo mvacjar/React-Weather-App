@@ -20,6 +20,7 @@ body {
   margin-top: -20px;
   margin-bottom: -20px;
   margin-right: 20px;
+  padding-top: 10px;
 }
 
 h1 {
@@ -96,14 +97,14 @@ h1 {
 
 .sign #link {
   text-decoration: none;
-  color: #ff5e00;
+  color: #ff7728;
 }
 
 .sign #link:hover {
   text-decoration: none;
-  color: #fd417cd4;
+  color: #ff4e86d4;
 }
 
 .sign .name {
-  color: #fd417cd4;
+  color: #ff4e86d4;
 }
