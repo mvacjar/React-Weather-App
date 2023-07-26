@@ -14,6 +14,7 @@
   border: none;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 2px #994e9a09;
+  transition: all 300ms ease;
   background-image: linear-gradient(100deg, #fd739f6c 0%, #ffb99369);
 }
 
